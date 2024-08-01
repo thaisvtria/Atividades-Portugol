@@ -1,24 +1,24 @@
 programa {
   funcao inicio() {
-    //Algoritmo para calcular a média entre as 4 nota.
-    //O usuário digitará as 4 notas e ao final
-    //o algoritmo exibirá a média final.
+    //Algoritmo para calcular a mÃ©dia entre as 4 nota.
+    //O usuÃ¡rio digitarÃ¡ as 4 notas e ao final
+    //o algoritmo exibirÃ¡ a mÃ©dia final.
 
-    //Declaração de variáveis
+    //DeclaraÃ§Ã£o de variÃ¡veis
     real nota1, nota2, nota3, nota3, nota4, media
 
-    //Atribuição das varariáveis
-    escreva("Digite a nota do 1° bimestre: ")
+    //AtribuiÃ§Ã£o das varariÃ¡veis
+    escreva("Digite a nota do 1Â° bimestre: ")
     leia (nota1)
-    escreva("Digite a nota do 2° bimestre: ")
+    escreva("Digite a nota do 2Â° bimestre: ")
     leia (nota2)
-    escreva("Digite a nota do 3° bimestre: ")
+    escreva("Digite a nota do 3Â° bimestre: ")
     leia (nota3)
-    escreva("Digite a nota do 4° bimestre: ")
+    escreva("Digite a nota do 4Â° bimestre: ")
     leia (nota4)
 
-    media= (n1+n2+n3+n4)/4
-    escreva ("a media final é: ", media)
+    media= (nota1+nota2+nota3+nota4)/4
+    escreva ("a media final Ã©: ", media)
     
         
   }
