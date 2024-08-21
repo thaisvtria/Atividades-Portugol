@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    //Comparação o uso de enquanto e faça-enquanto
+    logico condicao
+
+     condicao = falso
+
+     enquanto (condicao){
+       escreva("Mensagem dentro do enquanto\n")
+     }
+     escreva("Fora do Enquanto\n")
+    
+    condicao = falso
+    faca{
+      escreva("Mensagem dentro do Faça-Enquanto\n")
+    } enquanto(condicao)
+    escreva("Fora do Faça-Enquanto\n")
+  }
+}
